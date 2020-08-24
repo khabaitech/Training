@@ -1,0 +1,448 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Online Training</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+	
+
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+
+	<!-- Pricing -->
+	<link rel="stylesheet" href="css/pricing.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-----Bootstrap cdn---->
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<!-----/Bootstrap cdn--->
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+     <!--<link rel="stylesheet" type="text/css" href="css/style2.css">-->
+     <style>
+     
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    perspective: 1500px;
+}
+
+
+#sidebar {
+    min-width: 195px;
+    max-width: 195px;
+    background: #1eebd6;
+    color: #00ff00;
+    transition: all 0.6s cubic-bezier(0.945, 0.020, 0.270, 0.665);
+    transform-origin: bottom left;
+    text-align: center;
+    
+}
+
+#sidebar.active {
+    margin-left: -210px;
+    transform: rotateY(100deg);
+    color: #000
+}
+
+#sidebar .sidebar-header {
+    padding: 10px;
+    background: #6d7fcc;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #ff0000;
+    color: #000
+}
+
+#sidebar ul p {
+    color: #00ff00;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: #000;
+}
+#sidebar ul li a:hover {
+    color: #fff;
+    background: #6d7fcc;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+#sidebarCollapse {
+    width: 40px;
+    height: 40px;
+    background: #f5f5f5;
+    cursor: pointer;
+}
+
+#sidebarCollapse span {
+    width: 80%;
+    height: 2px;
+    margin: 0 auto;
+    display: block;
+    background: #555;
+    transition: all 0.8s cubic-bezier(0.810, -0.330, 0.345, 1.375);
+    transition-delay: 0.2s;
+}
+
+#sidebarCollapse span:first-of-type {
+    transform: rotate(45deg) translate(2px, 2px);
+}
+#sidebarCollapse span:nth-of-type(2) {
+    opacity: 0;
+}
+#sidebarCollapse span:last-of-type {
+    transform: rotate(-45deg) translate(1px, -1px);
+}
+
+
+#sidebarCollapse.active span {
+    transform: none;
+    opacity: 1;
+    margin: 5px auto;
+}
+     </style>
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="top">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 text-right">
+						<p class="num">Call: +01 123 456 7890</p>
+						<ul class="fh5co-social">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+							<li><a href="#"><i class="fa fa-github"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="top-menu">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-2">
+						<div id="fh5co-logo"><a href="index.html"><i class="fa fa-graduation-cap"></i> Khabai Tech<span></span></a></div>
+					</div>
+					<div class="col-xs-10 text-right menu-1">
+						<ul>
+							<li><a href="index.html">About</a></li>
+							<li class="has-dropdown">
+							  <a href="syllabus.html">All Courses</a>
+								<!--<ul class="dropdown">
+									<li><a href="#">Selenium1</a></li>
+									<li><a href="#">Selenium2</a></li>
+									<li><a href="#">Selenium3</a></li>
+									<li><a href="#">Selenium4</a></li>
+								</ul>-->
+							</li>
+							<li class="has-dropdown">
+								<a href="training.html">Training</a>
+								<!--<ul class="dropdown">
+									<li><a href="training.html">Buttons</a></li>
+									<li><a href="#">Graphics Design</a></li>
+									<li><a href="#">Software Development</a></li>
+									<li><a href="#">APP development</a></li>
+								</ul>-->
+							</li>
+							<li><a href="contact.html">Contact</a></li>
+							
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</nav>
+	
+	<!--<aside id="fh5co-hero">
+		<div class="flexslider">
+			<ul class="slides">
+		   	<li style="background-image: url(images/img_bg_4.jpg);">
+		   		<div class="overlay-gradient"></div>
+		   		<div class="container">
+		   			<div class="row">
+			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
+			   				<div class="slider-text-inner">
+			   					<h1 class="heading-section">Online Training</h1>
+									<h2>......</a></h2>
+			   				</div>
+			   			</div>
+			   		</div>
+		   		</div>
+		   	</li>
+		  	</ul>
+	  	</div>
+	</aside>-->
+
+<!--	<div id="fh5co-blog">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Blog &amp; Events</h2>
+					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+				</div>
+			</div>
+			<div class="row row-padded-mb">
+				<div class="col-md-4 animate-box">
+					<div class="fh5co-event">
+						<div class="date text-center"><span>15<br>Mar.</span></div>
+						<h3><a href="#">USA, International Triathlon Event</a></h3>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+						<p><a href="#">Read More</a></p>
+					</div>
+				</div>
+				<div class="col-md-4 animate-box">
+					<div class="fh5co-event">
+						<div class="date text-center"><span>15<br>Mar.</span></div>
+						<h3><a href="#">USA, International Triathlon Event</a></h3>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+						<p><a href="#">Read More</a></p>
+					</div>
+				</div>
+				<div class="col-md-4 animate-box">
+					<div class="fh5co-event">
+						<div class="date text-center"><span>15<br>Mar.</span></div>
+						<h3><a href="#">New Device Develope by Microsoft</a></h3>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+						<p><a href="#">Read More</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-4">
+					<div class="fh5co-blog animate-box">
+						<a href="#" class="blog-img-holder" style="background-image: url(images/project-1.jpg);"></a>
+						<div class="blog-text">
+							<h3><a href="#">Healty Lifestyle &amp; Living</a></h3>
+							<span class="posted_on">March. 15th</span>
+							<span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+						</div> 
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="fh5co-blog animate-box">
+						<a href="#" class="blog-img-holder" style="background-image: url(images/project-2.jpg);"></a>
+						<div class="blog-text">
+							<h3><a href="#">Healty Lifestyle &amp; Living</a></h3>
+							<span class="posted_on">March. 15th</span>
+							<span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+						</div> 
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="fh5co-blog animate-box">
+						<a href="#" class="blog-img-holder" style="background-image: url(images/project-3.jpg);"></a>
+						<div class="blog-text">
+							<h3><a href="#">Healty Lifestyle &amp; Living</a></h3>
+							<span class="posted_on">March. 15th</span>
+							<span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+						</div> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>-->
+<div class="row">
+
+	<div class="wrapper">
+	<div class="col-lg-1.2">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+
+            
+            <ul class="list-unstyled ">
+                    <li >
+                        <a href="training.html"  aria-expanded="false">HTML5 Tutorial</a>
+                    </li>
+                    <li>
+                        <a href="training1.html">HTML Buttons </a>
+                        </li>
+                       <li><a href="training2.html">HTML Input BOX</a>
+                    </li>
+                    <li>
+                        <a href="training3.html">HTML LInks</a>
+                    </li>
+                    <li>
+                        <a href="training4.html">HTML Dropdown</a>
+                    </li>
+                    <li>
+                        <a href="training5.html">Radio buttons and checkboxes</a>
+                    </li>
+                    <li>
+                        <a href="training6.html">Context Components</a>
+                    </li>
+                    <li>
+                        <a href="training7.html"> Flashing Menus</a>
+                    </li>
+                    <li>
+                        <a href="training8.html">Drag and Drop</a>
+                    </li>
+                    <li>
+                        <a href="training9.html">Tabs</a>
+                    </li>
+                    <li>
+                        <a href="training10.html">Alerts</a>
+                    </li>
+                    <li>
+                        <a href="training11.html">Windows</a>
+                    </li>
+                    <li>
+                        <a href="training12.html">File Upload</a>
+                    </li>
+                    <li>
+                        <a href="training13.html">Frames</a>
+                    </li>
+                    <li class="active">
+                        <a href="training14.html">Form</a>
+                    </li>
+                    
+                </ul>
+        </nav>
+
+</div>
+
+<div class="col-lg-10">
+	<h2 >Sample Content</h2>
+	<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
+	<div class="row">
+	<div class="col-lg-6">
+	<h3>Sem turpis amet semper</h3>
+	<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+	</div>
+	<div class="col-lg-6">
+	<h3>Magna odio tempus commodo</h3>
+	<p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor. Ante commodo blandit adipiscing integer semper orci eget. Faucibus commodo adipiscing mi eu nullam accumsan morbi arcu ornare odio mi adipiscing nascetur lacus ac interdum morbi accumsan vis mi accumsan ac praesent.</p>
+	</div>
+	<!-- Break -->
+	<div class="col-lg-4">
+	<h3>Interdum sapien gravida</h3>
+	<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+	</div>
+	<div class="col-lg-4">
+	<h3>Faucibus consequat lorem</h3>
+	<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+	</div>
+	<div class="col-lg-4">
+	<h3>Accumsan montes viverra</h3>
+	<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+	</div>
+</div>
+</div>
+        </div>
+        </div>
+    </div>
+	
+
+	<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy; 2019 Copyright. All Rights Reserved.</small> 
+						<small class="block">Designed &amp; Developed by <a href="http://khabaitech.com/" target="_blank">Khabai Tech </a></small>
+					</p>
+				</div>
+			</div>
+
+
+	
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- countTo -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Count Down -->
+	<script src="js/simplyCountdown.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+	<script>
+    var d = new Date(new Date().getTime() + 1000 * 120 * 120 * 2000);
+
+    // default example
+    simplyCountdown('.simply-countdown-one', {
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate()
+    });
+
+    //jQuery example
+    $('#simply-countdown-losange').simplyCountdown({
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate(),
+        enableUtc: false
+    });
+	</script>
+	</body>
+</html>
